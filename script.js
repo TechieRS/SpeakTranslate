@@ -25,7 +25,7 @@ if ('webkitSpeechRecognition' in window) {
 }
 
 // Replace with your actual Gemini API key
-const API_KEY = 'AIzaSyC1np92VvHP_c3sOho4TDFtcxflseSgIyM';
+const API_KEY = 'Replace with your actual Gemini API key';
 
 async function translateText() {
     const sourceTextValue = document.getElementById('sourceText').value;
